@@ -46,12 +46,12 @@
 
                 <ImageButton Grid.Row="1"
                              Source="information.png"
-                             Margin="0,90,0,0"/>
+                             Margin="0,100,0,0"/>
 
                 <ImageButton Grid.Row="1"
                              Grid.Column="1"
                              Source="volume.png"
-                             Margin="0,90,0,0"/>
+                             Margin="0,100,0,0"/>
 
                 <ImageButton Grid.Row="2"
                              Source="length.png"
