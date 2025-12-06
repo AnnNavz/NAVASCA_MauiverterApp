@@ -45,42 +45,60 @@
                 </VerticalStackLayout>
 
                 <ImageButton Grid.Row="1"
+                             x:Name="information"
+                             Clicked="information_Clicked"
                              Source="information.png"
                              Margin="0,100,0,0"/>
 
                 <ImageButton Grid.Row="1"
                              Grid.Column="1"
+                             x:Name="volume"
+                             Clicked="volume_Clicked"
                              Source="volume.png"
                              Margin="0,100,0,0"/>
 
                 <ImageButton Grid.Row="2"
+                             x:Name="length"
+                             Clicked="length_Clicked"
                              Source="length.png"
                              Margin="0,20,0,0"/>
 
                 <ImageButton Grid.Row="2"
                              Grid.Column="1"
+                             x:Name="mass"
+                             Clicked="mass_Clicked"
                              Source="mass.png"
                              Margin="0,20,0,0"/>
 
                 <ImageButton Grid.Row="3"
+                             x:Name="temperature"
+                             Clicked="temperature_Clicked"
                              Source="temperature.png"
                              Margin="0,20,0,0"/>
 
                 <ImageButton Grid.Row="3"
                              Grid.Column="1"
+                             x:Name="energy"
+                             Clicked="energy_Clicked"
                              Source="energy.png"
                              Margin="0,20,0,0"/>
 
                 <ImageButton Grid.Row="4"
+                             x:Name="area"
+                             Clicked="area_Clicked"
                              Source="area.png"
                              Margin="0,20,0,0"/>
 
                 <ImageButton Grid.Row="4"
                              Grid.Column="1"
+                             x:Name="speed"
+                             Clicked="speed_Clicked"
                              Source="speed.png"
                              Margin="0,20,0,0"/>
 
                 <ImageButton Grid.Row="5"
+                             x:Name="duration"
+                             Clicked="duration_Clicked"
                              Source="duration.png"
                              Margin="0,20,0,50"/>
                 
