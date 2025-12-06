@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NAVASCA_MauiverterApp.MainPage"
+             Shell.NavBarIsVisible="False">
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Image Source="background.png"
+                   VerticalOptions="Start"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <VerticalStackLayout Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center">
+                    <Label Text="Designed by NAVASCA"
+                           FontSize="11"
+                           FontFamily="lexend"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           Margin="0,20,0,0"/>
+
+                    <Label Text="MAUI Converter"
+                           FontSize="32"
+                           FontFamily="lexend"
+                           FontAttributes="Bold"
+                           TextColor="White"
+                           Margin="0,10,0,0"
+                           HorizontalTextAlignment="Center"/>
+
+                </VerticalStackLayout>
+
+                <ImageButton Grid.Row="1"
+                             Source="information.png"
+                             Margin="0,90,0,0"/>
+
+                <ImageButton Grid.Row="1"
+                             Grid.Column="1"
+                             Source="volume.png"
+                             Margin="0,90,0,0"/>
+
+                <ImageButton Grid.Row="2"
+                             Source="length.png"
+                             Margin="0,20,0,0"/>
+
+                <ImageButton Grid.Row="2"
+                             Grid.Column="1"
+                             Source="mass.png"
+                             Margin="0,20,0,0"/>
+
+                <ImageButton Grid.Row="3"
+                             Source="temperature.png"
+                             Margin="0,20,0,0"/>
+
+                <ImageButton Grid.Row="3"
+                             Grid.Column="1"
+                             Source="energy.png"
+                             Margin="0,20,0,0"/>
+
+                <ImageButton Grid.Row="4"
+                             Source="area.png"
+                             Margin="0,20,0,0"/>
+
+                <ImageButton Grid.Row="4"
+                             Grid.Column="1"
+                             Source="speed.png"
+                             Margin="0,20,0,0"/>
+
+                <ImageButton Grid.Row="5"
+                             Source="duration.png"
+                             Margin="0,20,0,50"/>
+                
+                
+
+            </Grid>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
