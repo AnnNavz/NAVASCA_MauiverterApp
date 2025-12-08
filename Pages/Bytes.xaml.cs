@@ -1,8 +1,8 @@
 namespace NAVASCA_MauiverterApp.Pages;
 
-public partial class Information : ContentPage
+public partial class Bytes : ContentPage
 {
-	public Information()
+	public Bytes()
 	{
 		InitializeComponent();
 	}

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="NAVASCA_MauiverterApp.Pages.Temperature"
-             Title="Temperature"
+             x:Class="NAVASCA_MauiverterApp.Pages.Bytes"
+             Title="Bytes"
              Shell.NavBarIsVisible="False">
 
 
@@ -27,7 +27,7 @@
                    FontFamily="century gothic"
                    Margin="0,100,0,0"
                    HorizontalTextAlignment="Center"/>
-
+            
             <Picker 
                         ItemsSource="{Binding Categories}"
                         SelectedItem="{Binding SelectedCategory}"
