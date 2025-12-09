@@ -6,9 +6,6 @@
 
     <ScrollView>
         <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
 
             <Image Source="background.png"
                    VerticalOptions="Start"/>
@@ -24,9 +21,10 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 
-                <VerticalStackLayout Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center">
+                <VerticalStackLayout Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center">
                     <Label Text="Designed by NAVASCA"
                            FontSize="11"
                            FontFamily="lexend"
@@ -57,50 +55,46 @@
                              Source="volume.png"
                              Margin="0,100,0,0"/>
 
-                <ImageButton Grid.Row="2"
+                <ImageButton Grid.Row="1"
+                             Grid.Column="2"
                              x:Name="length"
                              Clicked="length_Clicked"
                              Source="length.png"
-                             Margin="0,20,0,0"/>
+                             Margin="0,100,0,0"/>
+
+                <ImageButton Grid.Row="2"
+                             x:Name="mass"
+                             Clicked="mass_Clicked"
+                             Source="mass.png"/>
 
                 <ImageButton Grid.Row="2"
                              Grid.Column="1"
-                             x:Name="mass"
-                             Clicked="mass_Clicked"
-                             Source="mass.png"
-                             Margin="0,20,0,0"/>
-
-                <ImageButton Grid.Row="3"
                              x:Name="temperature"
                              Clicked="temperature_Clicked"
-                             Source="temperature.png"
-                             Margin="0,20,0,0"/>
+                             Source="temperature.png"/>
 
-                <ImageButton Grid.Row="3"
-                             Grid.Column="1"
+                <ImageButton Grid.Row="2"
+                             Grid.Column="2"
                              x:Name="energy"
                              Clicked="energy_Clicked"
-                             Source="energy.png"
-                             Margin="0,20,0,0"/>
+                             Source="energy.png"/>
 
-                <ImageButton Grid.Row="4"
+                <ImageButton Grid.Row="3"
                              x:Name="area"
                              Clicked="area_Clicked"
-                             Source="area.png"
-                             Margin="0,20,0,0"/>
+                             Source="area.png"/>
 
-                <ImageButton Grid.Row="4"
+                <ImageButton Grid.Row="3"
                              Grid.Column="1"
                              x:Name="speed"
                              Clicked="speed_Clicked"
-                             Source="speed.png"
-                             Margin="0,20,0,0"/>
+                             Source="speed.png"/>
 
-                <ImageButton Grid.Row="5"
+                <ImageButton Grid.Row="3"
+                             Grid.Column="2"
                              x:Name="duration"
                              Clicked="duration_Clicked"
-                             Source="duration.png"
-                             Margin="0,20,0,50"/>
+                             Source="duration.png"/>
                 
                 
 

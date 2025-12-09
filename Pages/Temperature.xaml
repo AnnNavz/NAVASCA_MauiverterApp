@@ -11,6 +11,7 @@
                Aspect="AspectFill"/>
         <VerticalStackLayout HorizontalOptions="Center">
             <Label Text="Temperature"
+                   TextColor="White"
                     FontSize="36"
                     FontAttributes="Bold"
                     FontFamily="lexend"
@@ -18,11 +19,13 @@
                     HorizontalTextAlignment="Center"/>
 
             <Label Text="Choose on what to change!"
+                   TextColor="White"
                    FontSize="13"
                    FontFamily="century gothic"
                    HorizontalTextAlignment="Center"/>
 
             <Label Text="0"
+                   TextColor="White"
                    FontSize="72"
                    FontFamily="century gothic"
                    Margin="0,100,0,0"
@@ -42,6 +45,7 @@
                 <VerticalStackLayout HorizontalOptions="Center">
 
                     <Label Text="0"
+                   TextColor="White"
                    FontSize="72"
                    FontFamily="century gothic"
                    Margin="0,30,0,0"

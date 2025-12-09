@@ -13,6 +13,7 @@
             <Label Text="Area"
                     FontSize="36"
                     FontAttributes="Bold"
+                   TextColor="White"
                     FontFamily="lexend"
                     Margin="0,20,0,0"
                     HorizontalTextAlignment="Center"/>
@@ -20,11 +21,13 @@
             <Label Text="Choose on what to change!"
                    FontSize="13"
                    FontFamily="century gothic"
+                   TextColor="White"
                    HorizontalTextAlignment="Center"/>
 
             <Label Text="0"
                    FontSize="72"
                    FontFamily="century gothic"
+                   TextColor="White"
                    Margin="0,100,0,0"
                    HorizontalTextAlignment="Center"/>
 
@@ -44,6 +47,7 @@
                     <Label Text="0"
                    FontSize="72"
                    FontFamily="century gothic"
+                   TextColor="White"
                    Margin="0,30,0,0"
                    HorizontalTextAlignment="Center"/>
 
