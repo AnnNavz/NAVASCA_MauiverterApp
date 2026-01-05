@@ -11,11 +11,11 @@
                Aspect="AspectFill"/>
         <VerticalStackLayout HorizontalOptions="Center">
             <Label Text="Information"
-                   TextColor="White"
-                    FontSize="36"
+                   TextColor="#ff97b6"
+                    FontSize="42"
                     FontAttributes="Bold"
                     FontFamily="lexend"
-                    Margin="0,20,0,0"
+                    Margin="0,30,0,0"
                     HorizontalTextAlignment="Center"/>
 
             <Label Text="Choose on what to change!"
@@ -45,7 +45,7 @@
                 </Picker.Items>
             </Picker>
 
-            <Frame BackgroundColor="#db319c" WidthRequest="345" HeightRequest="300" Margin="0,30,0,0" CornerRadius="15">
+            <Frame BackgroundColor="#ff97b6" WidthRequest="345" HeightRequest="300" Margin="0,30,0,0" CornerRadius="15">
                 <VerticalStackLayout HorizontalOptions="Center">
 
                     <Label Text="1000"

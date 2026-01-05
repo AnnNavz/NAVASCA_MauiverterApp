@@ -1,8 +1,8 @@
 namespace NAVASCA_MauiverterApp.Pages;
 
-public partial class Speed : ContentPage
+public partial class ConVERT : ContentPage
 {
-	public Speed()
+	public ConVERT()
 	{
 		InitializeComponent();
 	}

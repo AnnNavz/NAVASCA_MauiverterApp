@@ -14,47 +14,47 @@ namespace NAVASCA_MauiverterApp
 
 		private async void information_Clicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new Bytes());
+			await Navigation.PushAsync(new ConVERT());
 		}
 
 		private async void volume_Clicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new Volume());
+			await Navigation.PushAsync(new ConVERT());
 		}
 
 		private async void length_Clicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new Length());
+			await Navigation.PushAsync(new ConVERT());
 		}
 
 		private async void mass_Clicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new Mass());
+			await Navigation.PushAsync(new ConVERT());
 		}
 
 		private async void temperature_Clicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new Temperature());
+			await Navigation.PushAsync(new ConVERT());
 		}
 
 		private async void energy_Clicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new Energy());
+			await Navigation.PushAsync(new ConVERT());
 		}
 
 		private async void area_Clicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new Area());
+			await Navigation.PushAsync(new ConVERT());
 		}
 
 		private async void speed_Clicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new Speed());
+			await Navigation.PushAsync(new ConVERT());
 		}
 
 		private async void duration_Clicked(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new Duration());
+			await Navigation.PushAsync(new ConVERT());
 		}
     }
 }
