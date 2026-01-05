@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualBasic;
 using NAVASCA_MauiverterApp.Pages;
+using NAVASCA_MauiverterApp.ViewModel;
 
 namespace NAVASCA_MauiverterApp
 {
@@ -12,49 +13,19 @@ namespace NAVASCA_MauiverterApp
             InitializeComponent();
         }
 
-		private async void information_Clicked(object sender, EventArgs e)
-		{
-			await Navigation.PushAsync(new ConVERT());
-		}
+		
 
-		private async void volume_Clicked(object sender, EventArgs e)
+		private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
 		{
-			await Navigation.PushAsync(new ConVERT());
-		}
+			var element = (Grid)sender;
+			var option = ((Label)element.Children.LastOrDefault()).Text;
 
-		private async void length_Clicked(object sender, EventArgs e)
-		{
-			await Navigation.PushAsync(new ConVERT());
-		}
+			var converterView = new ConVERT
+			{
+				BindingContext = new ConverterViewModel(option)
+			};
 
-		private async void mass_Clicked(object sender, EventArgs e)
-		{
-			await Navigation.PushAsync(new ConVERT());
-		}
-
-		private async void temperature_Clicked(object sender, EventArgs e)
-		{
-			await Navigation.PushAsync(new ConVERT());
-		}
-
-		private async void energy_Clicked(object sender, EventArgs e)
-		{
-			await Navigation.PushAsync(new ConVERT());
-		}
-
-		private async void area_Clicked(object sender, EventArgs e)
-		{
-			await Navigation.PushAsync(new ConVERT());
-		}
-
-		private async void speed_Clicked(object sender, EventArgs e)
-		{
-			await Navigation.PushAsync(new ConVERT());
-		}
-
-		private async void duration_Clicked(object sender, EventArgs e)
-		{
-			await Navigation.PushAsync(new ConVERT());
+			Navigation.PushAsync(converterView);
 		}
     }
 }
