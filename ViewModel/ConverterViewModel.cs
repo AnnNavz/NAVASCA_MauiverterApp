@@ -32,7 +32,7 @@ namespace NAVASCA_MauiverterApp.ViewModel
 			});
 	
 
-	public ConverterViewModel(string quantityName)
+		public ConverterViewModel(string quantityName)
 		{
 			QuantityName = quantityName;
 			FromMeasures = LoadMeasures();

@@ -23,9 +23,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Grid.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
-                </Grid.GestureRecognizers>
+                
                 
                 <VerticalStackLayout Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center">
                     <Label Text="Designed by NAVASCA"
@@ -44,50 +42,60 @@
                            HorizontalTextAlignment="Center"/>
 
                 </VerticalStackLayout>
+                
 
                 <ImageButton Grid.Row="1"
                              x:Name="information"
+                             Clicked="information_Clicked"
                              Source="information.png"
                              Margin="0,100,0,0"/>
 
                 <ImageButton Grid.Row="1"
                              Grid.Column="1"
                              x:Name="volume"
+                             Clicked="information_Clicked"
                              Source="volume.png"
                              Margin="0,100,0,0"/>
 
                 <ImageButton Grid.Row="1"
                              Grid.Column="2"
                              x:Name="length"
+                             Clicked="information_Clicked"
                              Source="length.png"
                              Margin="0,100,0,0"/>
 
                 <ImageButton Grid.Row="2"
                              x:Name="mass"
+                             Clicked="information_Clicked"
                              Source="mass.png"/>
 
                 <ImageButton Grid.Row="2"
                              Grid.Column="1"
                              x:Name="temperature"
+                             Clicked="information_Clicked"
                              Source="temperature.png"/>
 
                 <ImageButton Grid.Row="2"
                              Grid.Column="2"
                              x:Name="energy"
+                             Clicked="information_Clicked"
                              Source="energy.png"/>
 
                 <ImageButton Grid.Row="3"
                              x:Name="area"
+                             Clicked="information_Clicked"
                              Source="area.png"/>
 
                 <ImageButton Grid.Row="3"
                              Grid.Column="1"
                              x:Name="speed"
+                             Clicked="information_Clicked"
                              Source="speed.png"/>
 
                 <ImageButton Grid.Row="3"
                              Grid.Column="2"
                              x:Name="duration"
+                             Clicked="information_Clicked"
                              Source="duration.png"/>
                 
                 

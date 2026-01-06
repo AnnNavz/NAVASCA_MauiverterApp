@@ -15,17 +15,20 @@ namespace NAVASCA_MauiverterApp
 
 		
 
-		private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
-		{
-			var element = (Grid)sender;
-			var option = ((Label)element.Children.LastOrDefault()).Text;
+        private void information_Clicked(object sender, EventArgs e)
+        {
+            var button = (ImageButton)sender;
 
-			var converterView = new ConVERT
-			{
-				BindingContext = new ConverterViewModel(option)
-			};
+            string option = char.ToUpper(button.StyleId[0]) + button.StyleId.Substring(1);
 
-			Navigation.PushAsync(converterView);
-		}
+
+            var converterView = new ConVERT
+            {
+                BindingContext = new ConverterViewModel(option)
+            };
+
+            Navigation.PushAsync(converterView);
+        }
+
     }
 }

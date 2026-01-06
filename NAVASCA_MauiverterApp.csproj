@@ -67,9 +67,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Pages\Bytes.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Pages\ConVERT.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
