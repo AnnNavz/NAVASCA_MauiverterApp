@@ -44,14 +44,19 @@
                    SelectedItem="{Binding CurrentFromMeasure}"
                    SelectedIndexChanged="Picker_SelectedIndexChanged"/>
 
-            <Frame BackgroundColor="#ff97b6" WidthRequest="345" HeightRequest="300" Margin="0,30,0,0" CornerRadius="15">
+            <Border BackgroundColor="#ff97b6" WidthRequest="345" MinimumHeightRequest="300" Margin="0,30,0,0" Stroke="AntiqueWhite" StrokeThickness="3">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15"/>
+                </Border.StrokeShape>
+                
                 <VerticalStackLayout HorizontalOptions="Center">
 
                     <Label Text="{Binding ToValue, StringFormat='{0:0.##}'}"
                    TextColor="White"
                    FontSize="72"
                    FontFamily="century gothic"
-                   Margin="0,30,0,0"
+                   Margin="0,20,0,0"
                    HorizontalTextAlignment="Center"/>
 
                     <Picker
@@ -59,14 +64,14 @@
                         TitleColor="White"
                         BackgroundColor="#40FFFFFF"
                         WidthRequest="320"
-                        Margin="0, 10, 0, 0"
+                        Margin="0, 10, 0, 10"
                         HorizontalOptions="Center"
                         ItemsSource="{Binding ToMeasures}"
                         SelectedItem="{Binding CurrentToMeasure}"
                         SelectedIndexChanged="Picker_SelectedIndexChanged"/>
 
                 </VerticalStackLayout>
-            </Frame>
+            </Border>
 
 
         </VerticalStackLayout>
